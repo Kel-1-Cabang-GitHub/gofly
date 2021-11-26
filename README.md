@@ -1,6 +1,6 @@
 # gofly
 
-Simple e-ticket website built using PHP Vanilla and MySQL as the database. We built this using [ticket.com](https://www.tiket.com/) as references. We built this website for our Information System class.
+Simple e-ticket website built using PHP Vanilla and MySQL as the database. We built this using [tiket.com](https://www.tiket.com/) as references. We built this website for our Information System class.
 
 ### Developer
 - [@WawanC](https://github.com/WawanC)
