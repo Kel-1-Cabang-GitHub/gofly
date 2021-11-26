@@ -1,0 +1,90 @@
+/* @font-face {
+  font-family: MyFont;
+  src: url(../font/SciFly-Sans.ttf);
+} */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  background: transparent;
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+  background-color: #eaf4ff;
+  /* background-image: url(../img/background.jpg); */
+}
+
+.kotak_utama {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-auto-flow: column;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  background-color: #eaf4ff;
+}
+
+.kotak_kiri_main {
+  float: left;
+  /* margin-left: 100px; */
+  width: 100%;
+  /* background-color: red; */
+}
+
+.kotak_kiri {
+  /* margin-top: 200px; */
+  padding: 30px 30px 30px;
+  /* float: left; */
+  width: 80%;
+  /* height: 500px; */
+  border-radius: 16px;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.kotak_kanan {
+  padding: 30px 30px;
+  /* margin-right: 100px; */
+  margin-top: 80px;
+  background-color: white;
+  border-radius: 16px;
+  height: fit-content;
+  /* float: right; */
+  /* width: 30%; */
+  border: 5px solid black;
+}
+
+.clear {
+  clear: both;
+}
+
+.kotak_kanan table {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.kotak_kiri table {
+  width: 100%;
+  font-size: 16pt;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.kotak_kiri td {
+  border: 1px solid black;
+}
+.tombolbeli {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 0.1fr;
+  /* border-top: 1px solid black; */
+  border: none;
+  background: none;
+  padding: 10px;
+}
+.tombolbeli:hover {
+  background-color: #84c1ff;
+  transition: 0.5s ease;
+}
+

@@ -1,0 +1,147 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #84c1ff;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url("../img/fds.png");
+  /*background-color: #26D832;*/
+  font-family: "Poppins", sans-serif;
+  background-color: #eaf4ff;
+}
+
+.container {
+  /* opacity: 0.5; */
+  /* background-color: white; */
+  /* float: left; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 40px;
+  padding: 35px;
+  margin-bottom: 44px;
+  max-width: 50%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.container .con-judul {
+  margin: 44px 0;
+}
+.container h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.container .con-inputs {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.container label {
+  display: block;
+  padding-left: 8px;
+}
+
+.container btn {
+  width: 100%;
+}
+
+/* input{
+  background-color: black;
+  color:black;
+} */
+.con-input {
+  display: block;
+  margin-top: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.con-input input {
+  padding: 14px 20px;
+  background: white;
+  border-radius: 18px;
+  border: 2px solid rgb(44, 62, 80);
+  /* opacity: 0.3; */
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+.con-input input .nama {
+  display: flex;
+  width: 48%;
+}
+.con-input input:focus {
+  opacity: 1;
+}
+.con-input .nama input {
+  width: 50%;
+}
+.btn {
+  font-family: "poppins";
+  margin: 20px 0;
+  padding: 14px;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+}
+
+.con-input label {
+  display: block;
+  padding-left: 8px;
+  margin: -20px 0;
+}
+
+.kl input {
+  margin: 0 -90px;
+}
+
+.con-input .alamat {
+  margin-top: 10px;
+}
+.container textarea {
+  border-radius: 8px;
+  padding: 14px 20px;
+}
+
+.judulJK {
+  margin-bottom: 5px;
+}
+
+.container .login {
+  text-decoration: none;
+  margin-top: -30px;
+  text-align: right;
+}
+
+.container a {
+  color: black;
+}
+
+.jk {
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 100px;
+  /* background-color: red; */
+}
+.jk_pilihan {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}

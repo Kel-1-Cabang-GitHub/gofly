@@ -1,0 +1,83 @@
+/* @font-face {
+  font-family: MyFont;
+  src: url(../font/SciFly-Sans.ttf);
+} */
+
+* {
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+  background-color: #eaf4ff;
+  /* background-image: url(../img/background.jpg); */
+}
+
+.kotak_utama {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  padding: 50px 200px 0px;
+  box-sizing: border-box;
+  /* justify-items: center; */
+  /* background-color: blue; */
+}
+.kotak_form {
+  /* position: relative; */
+  /* top: 100px; */
+  box-shadow: 3px 3px 3px 3px grey;
+  margin: 0px 0px 50px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 20px;
+  width: 90%;
+  height: auto;
+  border-radius: 16px;
+  background-color: white;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+/* .kotak_form:hover{
+  margin-top: 20px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  transition: 0.1s;
+} */
+tr,
+td {
+  padding: 10px 20px 10px;
+}
+/* td{
+  display: grid;
+  justify-content: right;
+} */
+.kotak_1 {
+  /* display: inline-block; */
+  width: auto;
+  display: grid;
+  grid-auto-flow: row;
+  /* float: left; */
+  height: auto;
+  border-radius: 16px;
+  /* background-color: green; */
+}
+
+.kotak_total {
+  background-color: white;
+  /* float: right; */
+  padding: 30px 10px;
+  /* margin-top: 0px; */
+  width: auto;
+  height: max-content;
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px 3px 3px grey;
+  border-radius: 16px;
+  /* background-color: red; */
+  /* padding: 10px; */
+}

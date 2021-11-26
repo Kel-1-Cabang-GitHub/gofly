@@ -1,0 +1,140 @@
+/* @font-face {
+  font-family: MyFont;
+  src: url(../font/SciFly-Sans.ttf);
+} */
+
+* {
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+  background-color: #eaf4ff;
+  /* background-image: url(../img/background.jpg); */
+}
+
+.kotak_1 {
+  width: 100%;
+  height: 100%;
+}
+
+.hasil_cari {
+  padding: 50px 50px;
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+  /* position: relative; */
+  top: 100px;
+  height: auto;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.futer {
+  margin-top: 10%;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.tiket {
+  margin: auto;
+  margin-top: 35px;
+  width: 90%;
+  height: 175px;
+  border-radius: 16px;
+  border: 5px solid black;
+  /* background-color: cyan; */
+}
+.tiket:hover{
+  margin-top: 40px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  transition: 0.1s;
+}
+/* #logo {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 10%;
+} */
+.kotak_tiket {
+  /* position: relative; */
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  background-color: white;
+}
+
+.nama_pesawat {
+  float: left;
+  width: 20%;
+  height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+
+.tiket img {
+  width: 100px;
+  height: 80px;
+}
+
+.jadwal_pesawat {
+  font-size: 14pt;
+  /* background-color: red; */
+  display: grid;
+  grid-template-areas:
+    "tanggal tanggal tanggal"
+    "berangkat langsung tiba";
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 20%;
+  height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.aksi {
+  float: right;
+  margin-top: 10px;
+  width: 25%;
+  height: 120px;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+  text-align: end;
+}
+.tanggal {
+  grid-area: tanggal;
+  /* background-color: blueviolet; */
+}
+.berangkat {
+  grid-area: berangkat;
+  /* background-color: yellow; */
+}
+.tiba {
+  grid-area: tiba;
+  /* background-color: blue; */
+}
+.langsung {
+  grid-area: langsung;
+  /* background-color: green; */
+}
+.clear {
+  clear: both;
+}

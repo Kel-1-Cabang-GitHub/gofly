@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header_utama {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.95fr;
+  justify-content: center;
+  /* background-color: pink; */
+  background-image: linear-gradient(to bottom, #add6ff 0%, #d6eaff 100%);
+  /* box-shadow: 2px 2px 2px 2px grey; */
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  /* background-color: rgba(0, 0, 0, 0.66); */
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-auto-flow: column;
+  /* background-color: blue; */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  height: auto;
+}
+.header_logo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  font-size: 48pt;
+  /* background-color: rebeccapurple; */
+}
+.header_logo img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+.header_navigasi {
+  /* position: relative; */
+  width: auto;
+  /* background-color: red; */
+  column-gap: 10px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  justify-self: end;
+}
+.test {
+  opacity: 0;
+  display: block;
+  grid-auto-flow: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  border-radius: 16px;
+  width: 150px;
+  height: auto;
+  background-color: white;
+  padding: 5px 0px 5px;
+  font-size: 14pt;
+}
+.test a {
+  pointer-events: none;
+}
+.header_navigasi_logout {
+  display: grid;
+  justify-items: center;
+}
+.header_navigasi_foto:hover .test {
+  opacity: 1;
+  box-shadow: 3px 3px 3px 3px grey;
+  transform: translateY(10px);
+  transition: 0.5s ease;
+}
+.header_navigasi_foto:hover .test a {
+  pointer-events: all;
+}
+.header_navigasi_foto:hover {
+  cursor: pointer;
+}
+.header_navigasi_pesanan a:hover,
+.header_navigasi_akun a:hover {
+  color: #84c1ff;
+}
+.header_navigasi_logout a:hover {
+  color: red;
+}
+.header_navigasi_logout a,
+.header_navigasi_akun a {
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+}
+.header_navigasi_login {
+  display: grid;
+  align-items: center;
+  /* position: relative; */
+  /* background-color: rebeccapurple; */
+}
+.header_navigasi_logout {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 16pt;
+  /* background-color: red; */
+}
+.header_navigasi_logout a {
+  color: white;
+}
+.header_navigasi_login a,
+.header_navigasi_daftar a,
+.header_navigasi_pesanan a {
+  padding: 10px;
+  /* background-color: white; */
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+}
+.header_navigasi_foto {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+  width: 75px;
+  height: 75px;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+/* .header_navigasi_foto::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+} */
+.header_navigasi_foto img:hover {
+  border: 3px solid #84c1ff;
+  /* transition: 0.5s ease;  */
+}
+
+.header_navigasi_foto img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  object-position: 0px 0px;
+}
+
+.header_navigasi_login,
+.header_navigasi_daftar,
+.header_navigasi_pesanan,
+.header_navigasi_logout,
+.header_navigasi_akun {
+  display: grid;
+  justify-items: center;
+}
+.header_navigasi_login a,
+.header_navigasi_daftar a,
+.header_navigasi_pesanan a,
+.header_navigasi_logout a,
+.header_navigasi_akun a {
+  display: grid;
+  justify-items: center;
+  color: black;
+}
+
+.header_navigasi_login a::after,
+.header_navigasi_daftar a::after,
+.header_navigasi_pesanan a::after,
+.header_navigasi_akun a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #84c1ff;
+}
+.header_navigasi_logout a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: red;
+}
+.header_navigasi_login a:hover::after,
+.header_navigasi_daftar a:hover::after,
+.header_navigasi_pesanan a:hover::after,
+.header_navigasi_logout a:hover::after,
+.header_navigasi_akun a:hover::after {
+  animation: animasiNavigasi 1s forwards;
+}
+/* .header_navigasi_pesanan{
+  background-color: red;
+} */
+@keyframes animasiNavigasi {
+  0% {
+  }
+  100% {
+    /* color: white; */
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #84c1ff;
+  border-radius: 10px;
+}

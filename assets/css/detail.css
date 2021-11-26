@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  /* background-color: beige; */
+}
+.bodi {
+  display: grid;
+  justify-items: center;
+  padding: 50px 0px;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #eaf4ff;
+  /* background-color: beige; */
+}
+.kotak {
+  width: 75%;
+  height: auto;
+  padding: 30px 50px;
+  display: grid;
+  row-gap: 20px;
+  box-sizing: border-box;
+  font-size: 16pt;
+  grid-auto-flow: row;
+  background-color: white;
+  border-radius: 16px;
+  border: 5px solid black;
+}
+#judul {
+  /* justify-self: center; */
+  text-align: center;
+  font-size: 40pt;
+  /* background-color: red; */
+}

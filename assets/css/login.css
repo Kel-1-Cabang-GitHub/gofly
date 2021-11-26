@@ -1,0 +1,140 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #84c1ff;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url("../img/fds.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: #eaf4ff;
+  background-size: 80%;
+  font-family: helvetica;
+}
+
+.kiri {
+  border-radius: 8px;
+  height: 355px;
+  background-color: white;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.kiri h1 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.kiri p {
+  margin-bottom: -13px;
+}
+
+.logo {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  margin-bottom: -80px;
+  /*height: 124px;
+    width: 100%;
+    display: flex;
+    justify-content: center;  */
+}
+
+.logo img {
+  /* height: 100%;
+    width: auto;
+    width: 183px;*/
+  object-fit: contain;
+}
+
+.kanan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.remember {
+  display: grid;
+  grid-auto-flow: column;
+  /* background-color: red; */
+  width: 50%;
+  align-items: center;
+  /* font-size: 12pt; */
+}
+
+h2 {
+  margin: 25px 0 25px 5px;
+}
+.kanan .input {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.container input {
+  width: 100%;
+  padding: 14px 20px;
+  border: 0px;
+  background: #f1f3f6;
+  border-radius: 8px;
+  border: 2px solid rgb(44, 62, 80);
+  /* border: 2px solid red; */
+  opacity: 0.2;
+  height: 40px;
+}
+
+.container input:focus {
+  opacity: 1;
+}
+
+.kanan .btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 44px;
+  width: 100%;
+  align-items: center;
+}
+
+.kanan a {
+  color: black;
+}
+
+/*.kanan a:active{
+	color:black;
+}*/
+
+.footer {
+  margin-top: 40px;
+  color: black;
+}
+
+.kanan .judul {
+  text-align: center;
+}
